@@ -1,0 +1,42 @@
+#page-title {
+    margin-left: 30px;
+    display: none;
+}
+#timeline {
+    /*border: 5px solid red;*/
+    font-family: Helvetica;
+    width: 600px;
+    margin: 0 auto;
+}
+.axis path {
+    fill: none;
+    stroke-width: 60px;
+    stroke: seagreen;
+}
+.axis line {
+    fill: none;
+    stroke-width: 2px;
+    stroke: orange;
+}
+.axis text {
+    font-size: 13px;
+    font-family: avenir;
+    fill: white;
+    text-anchor: middle;
+    letter-spacing: 1px;
+}
+.label-bg {
+    rx: 8px;
+    ry: 8px;
+}
+.dot {
+    opacity: 0.6;
+    r: 5;
+}
+path.link {
+    stroke-width: 2px;
+    opacity: 0.3;
+}
+text.label-text {
+    font-size: 12px;
+}
